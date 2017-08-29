@@ -1,14 +1,42 @@
-<?php
-	define('title','Home');
-	include('includes/header.php');
-	
-?>
-	<div class="content">
-			
-	</div>
-
-<?php 
-
-	include('includes/footer.php');
-
-?>
+<!Doctype HTML>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="style/style.css" />
+          <script  src="js/gallery.js"></script>
+    </head>
+<body>
+   <header>
+       <h1>Welcome</h1>
+    </header>
+    <nav>
+    </nav>
+    <section>
+        <form action="gallery.html" method="get">
+            <table>
+                <tr>
+                    <td><span>Name:</span>
+                    </td>
+                    <td>
+            <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp; Name" title="Enter your full name." autocomplete=on autofocus />
+                    </td>
+                </tr>
+                <tr>
+                    <td><span>Password:</span>
+                    </td>
+                    <td>
+            <input type="password" placeholder="&nbsp;&nbsp;&nbsp;&nbsp; Password" title="Enter your password." id="code" required onblur="check()" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><button class="button">Submit</button></td>  
+                    <td><input type="reset" class="button" /></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+    <footer>
+        <span>Pradip &copy;</span>
+    </footer>
+</body>
+</html>
