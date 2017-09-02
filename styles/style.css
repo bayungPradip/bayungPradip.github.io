@@ -4,6 +4,12 @@
 		padding:0px;
 		
 	}
+	
+body
+	{
+		background-color:grey;
+		
+	}
 #img1
 	{
 		margin-top:20px;
@@ -17,3 +23,15 @@
 	{
 		cursor:pointer;
 	}
+span#change
+	{
+		color:white;
+		font-family:sans-serif;
+		margin-left:638px;
+		letter-spacing:-1.5px;
+		text-shadow:2px 2px 3px black;
+		font-size:60px;
+	}
+	
+div#box{
+}
