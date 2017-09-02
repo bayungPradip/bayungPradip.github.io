@@ -35,3 +35,10 @@ span#change
 	
 div#box{
 }
+
+footer
+	{
+		color: white;
+		line-height:200px;
+		font-family:sans-serif;
+	}
