@@ -1,0 +1,19 @@
+*
+	{
+		margin:0px;
+		padding:0px;
+		
+	}
+#img1
+	{
+		margin-top:20px;
+		
+	}
+#img2
+	{
+		height:100px;
+	}
+#img2:hover
+	{
+		cursor:pointer;
+	}
